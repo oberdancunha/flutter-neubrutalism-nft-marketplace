@@ -11,8 +11,8 @@ class UserCheckedWidget extends StatelessWidget {
         builder: (_, constraints) => UIContainer(
           height: constraints.maxHeight * 0.5,
           width: MediaQuery.sizeOf(context).width * 0.05,
-          radius: 8,
-          borderWidth: 1.8,
+          radius: MediaQuery.sizeOf(context).width * 0.02,
+          borderWidth: MediaQuery.sizeOf(context).width * 0.005,
           shadow: Offset.zero,
           backgroundColor: const Color(0XFFDAFB52),
           child: Icon(

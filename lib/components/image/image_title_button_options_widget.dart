@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../button_options_widget.dart';
+import 'button_options_widget.dart';
 import 'image_title_widget.dart';
 
 class ImageTitleButtonOptionsWidget extends StatelessWidget {

@@ -9,9 +9,12 @@ class RainbowImageWidget extends StatelessWidget {
   Widget build(BuildContext context) => UIContainerImage(
         height: MediaQuery.sizeOf(context).height * 0.4,
         width: MediaQuery.sizeOf(context).width,
-        radius: 20,
-        borderWidth: 4,
-        shadow: const Offset(5, 3),
+        radius: MediaQuery.sizeOf(context).width * 0.05,
+        borderWidth: MediaQuery.sizeOf(context).width * 0.01,
+        shadow: Offset(
+          MediaQuery.sizeOf(context).width * 0.011,
+          MediaQuery.sizeOf(context).width * 0.007,
+        ),
         image: 'assets/images/rainbow.png',
       );
 }

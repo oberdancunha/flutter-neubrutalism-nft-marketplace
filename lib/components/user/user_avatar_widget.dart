@@ -11,10 +11,13 @@ class UserAvatarWidget extends StatelessWidget {
   Widget build(BuildContext context) => LayoutBuilder(
         builder: (_, constraints) => UIContainerImage(
           height: constraints.maxHeight,
-          width: MediaQuery.sizeOf(context).width * 0.087,
-          radius: 7,
-          borderWidth: 1.5,
-          shadow: const Offset(1.5, 1.5),
+          width: MediaQuery.sizeOf(context).width * 0.096,
+          radius: MediaQuery.sizeOf(context).width * 0.015,
+          borderWidth: MediaQuery.sizeOf(context).width * 0.0035,
+          shadow: Offset(
+            MediaQuery.sizeOf(context).width * 0.004,
+            MediaQuery.sizeOf(context).width * 0.003,
+          ),
           image: 'assets/images/lewis_webber.png',
         ),
       );

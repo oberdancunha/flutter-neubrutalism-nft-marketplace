@@ -16,8 +16,8 @@ class UserWidget extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             SizedBox(
-              height: MediaQuery.sizeOf(context).width * 0.09,
-              width: MediaQuery.sizeOf(context).width * 0.47,
+              height: MediaQuery.sizeOf(context).width * 0.091,
+              width: MediaQuery.sizeOf(context).width * 0.45,
               child: const Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -28,7 +28,7 @@ class UserWidget extends StatelessWidget {
                 ],
               ),
             ),
-            const SizedBox(height: 12),
+            const SizedBox(height: 10),
             const Expanded(
               child: UserDescriptionWidget(),
             ),

@@ -10,15 +10,14 @@ class ImageTitleWidget extends StatelessWidget {
         children: [
           Text(
             '#41235',
-            style: TextStyle(
-              fontSize: MediaQuery.sizeOf(context).width * 0.035,
-              color: Theme.of(context).textTheme.displaySmall!.backgroundColor,
-            ),
+            style: Theme.of(context).textTheme.displaySmall!.copyWith(
+                  fontSize: MediaQuery.sizeOf(context).width * 0.032,
+                ),
           ),
           Text(
             'Too Much Rainbow',
             style: TextStyle(
-              fontSize: MediaQuery.sizeOf(context).width * 0.062,
+              fontSize: MediaQuery.sizeOf(context).width * 0.06,
               color: Colors.black,
               fontWeight: FontWeight.w700,
             ),

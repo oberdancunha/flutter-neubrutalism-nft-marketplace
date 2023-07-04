@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../ui_widgets/ui_container.dart';
+import '../../ui_widgets/ui_container.dart';
 
 class ButtonOptionsWidget extends StatelessWidget {
   const ButtonOptionsWidget({super.key});
@@ -10,9 +10,12 @@ class ButtonOptionsWidget extends StatelessWidget {
         builder: (_, constraints) => UIContainer(
           height: constraints.maxHeight,
           width: MediaQuery.sizeOf(context).width * 0.12,
-          radius: 8,
-          borderWidth: 1.5,
-          shadow: const Offset(2, 2),
+          radius: MediaQuery.sizeOf(context).width * 0.015,
+          borderWidth: MediaQuery.sizeOf(context).width * 0.005,
+          shadow: Offset(
+            MediaQuery.sizeOf(context).width * 0.005,
+            MediaQuery.sizeOf(context).width * 0.005,
+          ),
           child: Icon(
             Icons.more_vert_rounded,
             size: MediaQuery.sizeOf(context).width * 0.07,

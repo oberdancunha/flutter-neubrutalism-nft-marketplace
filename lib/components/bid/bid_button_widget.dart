@@ -14,9 +14,12 @@ class BidButtonwidget extends StatelessWidget {
   Widget build(BuildContext context) => UIContainer(
         height: MediaQuery.sizeOf(context).height * 0.07,
         width: width,
-        radius: 12,
-        borderWidth: 3,
-        shadow: const Offset(4, 4),
+        radius: MediaQuery.sizeOf(context).width * 0.03,
+        borderWidth: MediaQuery.sizeOf(context).width * 0.007,
+        shadow: Offset(
+          MediaQuery.sizeOf(context).width * 0.009,
+          MediaQuery.sizeOf(context).width * 0.009,
+        ),
         backgroundColor: const Color(0XFFD7FC52),
         child: Padding(
           padding: EdgeInsets.symmetric(

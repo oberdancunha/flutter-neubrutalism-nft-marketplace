@@ -5,7 +5,8 @@ ThemeData get theme => ThemeData(
       brightness: Brightness.light,
       textTheme: const TextTheme(
         displaySmall: TextStyle(
-          color: Color(0XFF7F7D78),
+          color: Color.fromARGB(255, 143, 141, 135),
+          fontWeight: FontWeight.w700,
         ),
       ),
     );

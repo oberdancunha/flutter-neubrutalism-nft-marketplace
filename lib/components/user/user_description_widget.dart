@@ -8,10 +8,9 @@ class UserDescriptionWidget extends StatelessWidget {
         width: MediaQuery.sizeOf(context).width * 0.78,
         child: Text(
           'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.',
-          style: TextStyle(
-            fontSize: MediaQuery.sizeOf(context).width * 0.031,
-            color: Theme.of(context).textTheme.displaySmall!.backgroundColor,
-          ),
+          style: Theme.of(context).textTheme.displaySmall!.copyWith(
+                fontSize: MediaQuery.sizeOf(context).width * 0.031,
+              ),
         ),
       );
 }

@@ -18,9 +18,12 @@ class BidDataWidget extends StatelessWidget {
   Widget build(BuildContext context) => UIContainer(
         height: MediaQuery.sizeOf(context).height * 0.07,
         width: width,
-        radius: 7,
-        borderWidth: 2,
-        shadow: const Offset(2, 2),
+        radius: MediaQuery.sizeOf(context).width * 0.02,
+        borderWidth: MediaQuery.sizeOf(context).width * 0.005,
+        shadow: Offset(
+          MediaQuery.sizeOf(context).width * 0.005,
+          MediaQuery.sizeOf(context).width * 0.005,
+        ),
         child: Padding(
           padding: EdgeInsets.only(
             left: MediaQuery.sizeOf(context).width * 0.045,
@@ -38,10 +41,9 @@ class BidDataWidget extends StatelessWidget {
               ),
               Text(
                 label,
-                style: TextStyle(
-                  fontSize: MediaQuery.sizeOf(context).width * 0.03,
-                  color: Theme.of(context).textTheme.displaySmall!.backgroundColor,
-                ),
+                style: Theme.of(context).textTheme.displaySmall!.copyWith(
+                      fontSize: MediaQuery.sizeOf(context).width * 0.03,
+                    ),
               ),
             ],
           ),
