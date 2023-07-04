@@ -1,0 +1,40 @@
+name: nft_marketplace
+description: NFT Marketplace - Neubrutalism design reproduction in Flutter.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  dart_code_metrics: ^5.7.5
+  flutter_test:
+    sdk: flutter
+  lint: ^2.1.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/background.png
+    - assets/images/rainbow.png
+    - assets/images/arrow_back.png
+    - assets/images/valentine_baloon.png
+    - assets/images/lewis_webber.png
+
+  fonts:
+    - family: Gilroy
+      fonts:
+        - asset: assets/fonts/gilroy/Gilroy-Light.otf
+          style: normal
+          weight: 300 
+        - asset: assets/fonts/gilroy/Gilroy-Extrabold.otf
+          style: normal
+          weight: 700
+    - family: CustomIcon
+      fonts:
+        - asset: assets/fonts/icon/CustomIcon.ttf
