@@ -32,7 +32,7 @@ class UIContainer extends StatelessWidget {
           ),
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withOpacity(1),
+              color: Theme.of(context).shadowColor,
               offset: shadow,
             ),
           ],
