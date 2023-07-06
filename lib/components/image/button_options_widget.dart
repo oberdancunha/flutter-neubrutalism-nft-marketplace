@@ -10,7 +10,7 @@ class ButtonOptionsWidget extends StatelessWidget {
         builder: (_, constraints) => UIContainer(
           height: constraints.maxHeight,
           width: MediaQuery.sizeOf(context).width * 0.12,
-          radius: MediaQuery.sizeOf(context).width * 0.015,
+          radius: MediaQuery.sizeOf(context).width * 0.02,
           borderWidth: MediaQuery.sizeOf(context).width * 0.005,
           shadow: Offset(
             MediaQuery.sizeOf(context).width * 0.005,
