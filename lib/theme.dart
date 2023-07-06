@@ -9,4 +9,8 @@ ThemeData get theme => ThemeData(
           fontWeight: FontWeight.w700,
         ),
       ),
+      colorScheme: const ColorScheme.light(
+        primary: Color(0XFFFFFFFF),
+        secondary: Color(0XFFD7FC52),
+      ),
     );

@@ -14,7 +14,7 @@ class UserCheckedWidget extends StatelessWidget {
           radius: MediaQuery.sizeOf(context).width * 0.02,
           borderWidth: MediaQuery.sizeOf(context).width * 0.005,
           shadow: Offset.zero,
-          backgroundColor: const Color(0XFFDAFB52),
+          backgroundColor: Theme.of(context).colorScheme.secondary,
           child: Icon(
             CustomIcon.ok,
             size: MediaQuery.sizeOf(context).width * 0.021,

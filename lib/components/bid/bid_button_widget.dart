@@ -20,7 +20,7 @@ class BidButtonwidget extends StatelessWidget {
           MediaQuery.sizeOf(context).width * 0.009,
           MediaQuery.sizeOf(context).width * 0.009,
         ),
-        backgroundColor: const Color(0XFFD7FC52),
+        backgroundColor: Theme.of(context).colorScheme.secondary,
         child: Padding(
           padding: EdgeInsets.symmetric(
             horizontal: MediaQuery.sizeOf(context).width * 0.07,

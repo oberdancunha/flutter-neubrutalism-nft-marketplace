@@ -16,6 +16,7 @@ class ButtonOptionsWidget extends StatelessWidget {
             MediaQuery.sizeOf(context).width * 0.005,
             MediaQuery.sizeOf(context).width * 0.005,
           ),
+          backgroundColor: Theme.of(context).colorScheme.primary,
           child: Icon(
             Icons.more_vert_rounded,
             size: MediaQuery.sizeOf(context).width * 0.07,
