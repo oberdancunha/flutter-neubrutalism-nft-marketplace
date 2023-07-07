@@ -21,7 +21,6 @@ class HomePage extends StatelessWidget {
               child: Column(
                 children: [
                   MainTitleBarWidget(),
-                  SizedBox(height: 5),
                   RainbowImageWidget(),
                   SizedBox(height: 15),
                   Column(
