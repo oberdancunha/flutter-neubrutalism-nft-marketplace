@@ -50,7 +50,7 @@ As figuras abaixo ilustram um comparativo entre o modelo apresentado pelo dribbb
           border= "1px solid black"
         />
       </p>
-      <p align="center" style="font-size:13px">
+      <p align="center" style="font-size:12.8px">
         Emulador de iPhone 14 Pro Max (iOS 16.2)
       </p>
     </td>
