@@ -9,8 +9,8 @@ class UserCheckedWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) => LayoutBuilder(
         builder: (_, constraints) => UIContainer(
-          height: constraints.maxHeight * 0.5,
-          width: MediaQuery.sizeOf(context).width * 0.05,
+          height: constraints.maxHeight * 0.52,
+          width: MediaQuery.sizeOf(context).width * 0.052,
           radius: MediaQuery.sizeOf(context).width * 0.02,
           borderWidth: MediaQuery.sizeOf(context).width * 0.005,
           shadow: Offset.zero,

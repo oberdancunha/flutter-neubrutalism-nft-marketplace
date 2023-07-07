@@ -11,7 +11,7 @@ class MainTitleBarWidget extends StatelessWidget {
           children: [
             Image.asset(
               'assets/images/arrow_back.png',
-              width: MediaQuery.sizeOf(context).width * 0.08,
+              width: MediaQuery.sizeOf(context).width * 0.085,
             ),
             Text(
               'NFT Details',
