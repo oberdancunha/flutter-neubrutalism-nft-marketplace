@@ -11,14 +11,14 @@ class UserIdentifyWidget extends StatelessWidget {
           Text(
             'Lewis Webber',
             style: TextStyle(
-              fontSize: MediaQuery.sizeOf(context).width * 0.038,
+              fontSize: MediaQuery.sizeOf(context).width * 0.04,
               fontWeight: FontWeight.w700,
             ),
           ),
           Text(
             '@LewWebNFTs',
             style: Theme.of(context).textTheme.displaySmall!.copyWith(
-                  fontSize: MediaQuery.sizeOf(context).width * 0.033,
+                  fontSize: MediaQuery.sizeOf(context).width * 0.035,
                 ),
           ),
         ],

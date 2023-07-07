@@ -16,7 +16,7 @@ class UserWidget extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             SizedBox(
-              height: MediaQuery.sizeOf(context).width * 0.091,
+              height: MediaQuery.sizeOf(context).width * 0.092,
               width: MediaQuery.sizeOf(context).width * 0.45,
               child: const Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
